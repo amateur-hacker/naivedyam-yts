@@ -22,9 +22,12 @@
     "clean:modules": "rimraf node_modules"
   },
   "dependencies": {
+    "@hono-rate-limiter/redis": "^0.1.4",
     "@hono/node-server": "^1.13.7",
+    "@vercel/kv": "^3.0.0",
     "dotenv": "^16.4.7",
     "hono": "^4.6.14",
+    "hono-rate-limiter": "^0.4.2",
     "yt-search": "^2.12.1"
   },
   "devDependencies": {
